@@ -1,2 +1,2 @@
-# Codedex-Python-Lectures
+# Python Practice
 Notes from what I learned for Python
