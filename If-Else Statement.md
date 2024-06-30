@@ -1,6 +1,8 @@
-# If-Else Statement
+# Coding Notes
 
-## If Statement
+## If-Else Statement
+
+### If Statement
 - An ``if`` statement is used to test a condition for truth:
     - If the condition evaluates to ``True``, code in the if part is executed.
     - If the condition evaluates to ``False``, code is skipped.
@@ -18,7 +20,7 @@ For example, ``if`` the grade variable is greater than 60:
 
 The code "inside" the if statement must be indented (preferably 2 spaces).
 
-## Else
+### Else
 - An ``else`` clause can be optionally added to an if statement.
     - If the condition evaluates to ``True``, code in the ``if`` part is executed.
     - If the condition evaluates to ``False``, code in the ``else`` part is executed.
@@ -31,3 +33,16 @@ The code "inside" the if statement must be indented (preferably 2 spaces).
 >       print("You failed.")
 
 The code "inside" the ``else`` clause must also be indented.
+
+## Relational Operators
+- ``==`` equal to
+
+- ``!=`` not equal to
+
+- ``>`` greater than
+
+- ``<`` less than
+
+- ``>=`` greater than or equal to
+
+- ``<=`` less than or equal to
