@@ -56,3 +56,12 @@ One or more ``elif`` statements (short for "else if") can be optionally added in
 
 - ``<=`` less than or equal to
 
+
+### Random
+We can use the ``.randint()`` function from a module called ``random`` to generate a random number from a range.
+
+## Logical Operators
+Logical operators, also known as Boolean operators, combine and evaluate two conditions. They are ``and``, ``or``, and ``not`` operators:
+- ``and`` returns``True`` if both conditions are True, and returns ``False`` otherwise.
+- ``or`` returns ``True`` if at least one of the conditions is ``True``, and ``False`` otherwise.
+- ``not`` returns ``True`` if the condition is ``False``, and vice versa.
