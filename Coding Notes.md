@@ -56,7 +56,6 @@ One or more ``elif`` statements (short for "else if") can be optionally added in
 
 - ``<=`` less than or equal to
 
-
 ### Random
 We can use the ``.randint()`` function from a module called ``random`` to generate a random number from a range.
 
