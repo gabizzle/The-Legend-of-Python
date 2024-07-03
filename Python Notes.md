@@ -75,3 +75,29 @@ Logical operators, also known as Boolean operators, combine and evaluate two con
 ## Range
 - To loop through a set of code a specified number of times, we can use a ``for`` loop and the ``range()`` function.
 - The ``range()`` function returns a sequence of numbers. By default, the sequence starts at 0 and increments by 1, ending at a specified number.
+
+## Lists
+Lists are created using square brackets ``[`` and ``]``. And the items are separated by ``,`` commas.
+- List items allow duplicate values.
+- Lists can have values with different data types.
+- There's no limit to how much data a list can hold.
+
+## Index
+- List items are changeable, meaning we can update individual items within a list.
+- But before we do that, how can we access an individual item within a list? Well, this is where index comes in!
+ **index** is an item's position in a list.
+- **Python is 0-indexed**, meaning that the indices starts at 0.
+
+        vowels = ['a', 'e', 'i', 'o', 'u']
+        # Index:   0    1    2    3    4
+
+- Another thing to note about index is that it can be positive or negative.
+- If the index is negative, it starts from -1 (which is the last item of a list) and it goes backwards from there.
+
+        vowels = ['a', 'e', 'i', 'o', 'u']
+        # Index:   0    1    2    3    4
+        # Index:  -5   -4   -3   -2   -1
+
+## Slicing
+- Is there a way to get more than just one individual item? Yep! It's called slicing.- Slicing is where we can access certain parts of a sequence.
+- Instead of accessing an item using a single index like ``name[index]``, we can get multiple items by specifying where to start and where to end the range like ``name[start : end]``.
