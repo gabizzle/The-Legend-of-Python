@@ -19,7 +19,14 @@
 # ['e', 'i']
 # It starts from the start index (inclusive) and ends before the end index (non-inclusive). So in the above example, print(vowels[1 : 3]) only returned items at indices 1 and 2, and didn't include index 3.
 
-todo = ['🏦 Get quarters', '🧺 Do laundry', '🌳 Take a walk', '💈 Get a haircut', '🍵 Make some tea', '💻 Complete Lists chapter', '💖 Call mom', '📺 Watch Jujutsu Kaisen']
+todo = ['🏦 Get quarters', 
+        '🧺 Do laundry', 
+        '🌳 Take a walk', 
+        '💈 Get a haircut', 
+        '🍵 Make some tea', 
+        '💻 Complete Lists chapter', 
+        '💖 Call mom', 
+        '📺 Watch Jujutsu Kaisen']
 
 # Print the first item and the second item. What did you get?
 print(todo[0])

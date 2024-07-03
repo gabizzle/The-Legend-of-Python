@@ -101,3 +101,26 @@ Lists are created using square brackets ``[`` and ``]``. And the items are separ
 ## Slicing
 - Is there a way to get more than just one individual item? Yep! It's called slicing.- Slicing is where we can access certain parts of a sequence.
 - Instead of accessing an item using a single index like ``name[index]``, we can get multiple items by specifying where to start and where to end the range like ``name[start : end]``.
+
+## Built-in Functions (Lists)
+
+Python comes with some built-in functions, including ones specifically for lists.
+
+Here are some examples:
+- The ``len()`` function returns the total length of a list.
+- The ``max()`` function returns the maximum value in a list.
+- The ``min()`` function returns the minimum value in a list.
+
+## List Methods
+
+- ``.append()``	Add an item to the end of the list
+- ``.clear()``	Remove all items from the list
+- ``.copy()``	Return a shallow copy of the list
+- ``.count()``	Return the number of times the value appears in the list
+- ``.extend()``	Appends another list to the current list by extending it
+- ``.index()``	Returns the index of a value inside the list
+- ``.insert()``	Insert an item at a specified position in the list
+- ``.pop()``	Remove an item from a specified position in the list
+- ``.remove()``	Remove an item from the list based on the value of the item
+- ``.reverse()``	Reverses the list in place
+- ``.sort()``	Sorts the list in place
