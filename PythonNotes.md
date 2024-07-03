@@ -124,3 +124,29 @@ Here are some examples:
 - ``.remove()``	Remove an item from the list based on the value of the item
 - ``.reverse()``	Reverses the list in place
 - ``.sort()``	Sorts the list in place
+
+## for-in
+The first way is using a ``for``-``in`` loop. Here's an example:
+
+        snowfall = [0.3, 0.0, 0.0, 1.2, 3.9, 2.2, 0.8]
+
+        for i in snowfall:
+          print(i)
+
+The ``i`` is a variable which represents an item inside the list, each time the loop iterates. This is saying for every item in the ``snowfall`` list, print out the item. The output will be:
+
+        0.3
+        0.0
+        0.0
+        1.2
+        3.9
+        2.2
+        0.8
+
+### Summary
+- Lists are used to store different items in a single variable.
+- An index is an item's position in a list. Python lists are 0-indexed.
+- Slicing can access certain parts of a list with ``name[start:end]``.
+- Python has built-in functions like ``len()``, ``max()``, ``min()``.
+- Lists have built-in methods like ``.append()``, ``.insert()``, .``remove()``, ``.pop()``.
+- We can iterate over a list using ``for``-``in``.

@@ -16,10 +16,11 @@
 books = ['Atomic Habits',
          'Craft Coffee',
          'How to Taste Coffee',
-         'The Little Life',
-         '']
+         'A Little Life',
+         'Ninth House']
 
-books.append('The Pragmatic Programmer')
-books.remove('Zero to One')
+books.append('The Compound Effect')
+books.remove('Ninth House')
 books.pop(1)
+
 print(books)
