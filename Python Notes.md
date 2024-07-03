@@ -1,4 +1,4 @@
-# Coding Notes
+# Python Notes
 
 ## If-Else Statement
 
@@ -68,5 +68,10 @@ Logical operators, also known as Boolean operators, combine and evaluate two con
 ## Loop
 - In programming, a ``loop`` is used to repeat a block of code until a specified condition is satisfied. It's another incredibly powerful tool that's used a ton!
 - People will often use the generic term “iterate” when referring to loops; iterate simply means “to repeat”.
-- The first kind of loop that we are going to learn is the ``while`` loop. You can think of the ``while`` loop like a traffic circle.
-- Each lap is one iteration! A car will iterate over and over again until it can't do so anymore.
+- A ``while`` loop looks very similar to an ``if`` statement. Just like an ``if`` statement, it executes the code if the condition is ``True``.
+- However, the difference is that the ``while`` loop will continue to execute the code inside of it, over and over again, as long as the condition is ``True``.
+- In other words, instead of executing once if a condition is true, it executes again and again while that condition is true.
+
+## Range
+- To loop through a set of code a specified number of times, we can use a ``for`` loop and the ``range()`` function.
+- The ``range()`` function returns a sequence of numbers. By default, the sequence starts at 0 and increments by 1, ending at a specified number.
