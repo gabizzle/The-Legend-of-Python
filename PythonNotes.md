@@ -185,3 +185,20 @@ Defining a function creates the function, and it's the first step, but it doesn'
         say_hello()
 
 To **call** a function, we use the function name followed by parentheses somewhere in the code
+
+## Parameters & Arguments
+
+**Parameters** are variables that a function takes in as input. They go inside the parentheses in the function definition and are used inside the function.
+
+An **argument** is the value sent to the function when the function is called.
+
+        def happy_birthday(name):
+           print('Happy birthday to you')
+           print('Happy birthday to you')
+           print('Happy birthday dear ' + name )
+           print('Happy birthday to you')
+
+        happy_birthday('Pochita')
+
+- ``name`` is the parameter
+- ``Pochita`` is the argument
