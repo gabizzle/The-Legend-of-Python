@@ -169,3 +169,19 @@ To define a function, we need a function definition. A function definition begin
 - The ``def`` keyword.
 - The function name, followed by a pair of parentheses ``()``.
 - The colon ``:``.
+
+The code inside the function is called the body of the function. And just like ``if`` statements and ``while`` loops, the code inside a function must be ***indented***
+
+Note: The common naming convention for functions is ``snake_case``
+
+Suppose we want to create a function named ``say_hello()``:
+
+Defining a function creates the function, and it's the first step, but it doesn't mean that Python will automatically run the code inside its body. How do we convey to Python that we want the function body executed? **We need to call the function!**
+
+        def say_hello():
+           print('Howdy! 🤠')
+           print('How are you?')
+
+        say_hello()
+
+To **call** a function, we use the function name followed by parentheses somewhere in the code
