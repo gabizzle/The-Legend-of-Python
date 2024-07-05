@@ -149,4 +149,23 @@ The ``i`` is a variable which represents an item inside the list, each time the 
 - Slicing can access certain parts of a list with ``name[start:end]``.
 - Python has built-in functions like ``len()``, ``max()``, ``min()``.
 - Lists have built-in methods like ``.append()``, ``.insert()``, .``remove()``, ``.pop()``.
-- We can iterate over a list using ``for``-``in``.
+- We can iterate over a list using ``for``-``in``
+
+## Function
+
+A **function** is a reusable block of code that performs a specific task. To execute this block of code, you just need to know the function's name, followed by a pair of parenthesis ``()``
+
+Built-in functions are 68 functions that come with the Python interpreter available for use. Here are some that you might recognize: ``print()``, ``input()``, ``len()``
+
+User-defined functions are functions we define ourselves to do a specific task, and it's a two-step process: 
+        1. define
+        2. call
+
+To define a function, we need a function definition. A function definition begins with the ``def`` keyword, followed by the function name, a set of parentheses, and a colon in that order.
+
+        def name():
+        # The code inside
+
+- The ``def`` keyword.
+- The function name, followed by a pair of parentheses ``()``.
+- The colon ``:``.
