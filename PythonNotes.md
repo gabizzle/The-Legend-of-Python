@@ -202,3 +202,11 @@ An **argument** is the value sent to the function when the function is called.
 
 - ``name`` is the parameter
 - ``Pochita`` is the argument
+
+## Return Value
+
+The ``return`` keyword is used to terminate a function and output a value:
+
+        def function_name():
+        # The code inside
+        return value
