@@ -238,7 +238,7 @@ Here are two types of scope:
 
 ## Class
 
-With classes, we can create our own data type and use them to model everyday objects with their own unique characteristics and behaviors.
+With **classes**, we can create our own data type and use them to model everyday objects with their own unique characteristics and behaviors.
 
 Classes serve as a template for the objects created using that class. Simply put, a class is like a blueprint. A class can make a bunch of objects with identical sets of attributes, similar to how a car manufacturer can use a model blueprint to build hundreds of cars in different colors, interiors, wheels, etc.
 
@@ -261,3 +261,24 @@ The Student class has four attributes:
 ``.gpa`` of the type ``float`` (decimal number)
 
 ``.enrolled` of the type ``bool`` (boolean value)
+
+## Objects
+
+An **object** is an "instance" of a class. A class is simply a template to create objects, which are individual copies of the class with actual values.
+
+## The ``__init__()`` Method
+
+Using ``__init__()`` in our class definition lets us construct objects with unique attributes. When we create a new ``Student()`` object, we can pass in values for each attribute to **initialize** the new object, all in a single line!
+
+So if we reformat our Student class with ``__init__()``:
+
+        class Student: 
+        def __init__(self, name, year, gpa, enrolled):
+        self.name = name
+        self.year = year
+        self.gpa = gpa
+        self.enrolled = enrolled
+
+        daniel = Student('Daniel Li', 10, 4.0, True)
+
+Note that ``__init__()`` also uses a separate parameter called ``self``. This represents the object we'll create out of Student(). We need to include ``self`` whenever we want to use ``__init__()``. It's always the first parameter.
