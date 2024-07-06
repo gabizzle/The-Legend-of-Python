@@ -236,3 +236,28 @@ Here are two types of scope:
 - The scope of the ``answer`` variable is only inside the ``add()`` function. It is a local variable that belongs to the local scope of the ``add()`` function.
 - Now, a variable created outside of a function is called a **global variable** and belongs to the **global scope**, meaning that they can be used by every function.
 
+## Class
+
+With classes, we can create our own data type and use them to model everyday objects with their own unique characteristics and behaviors.
+
+Classes serve as a template for the objects created using that class. Simply put, a class is like a blueprint. A class can make a bunch of objects with identical sets of attributes, similar to how a car manufacturer can use a model blueprint to build hundreds of cars in different colors, interiors, wheels, etc.
+
+In our example, 📜 (class) ➡️ 👩🏼‍💻👨🏻‍💻👩🏽‍💻👩‍💻🧑🏾‍💻 (objects).
+
+The ``class`` keyword following a class name creates the class. By convention, the class name is **capitalized**
+
+        class Student:
+        name = ''
+        year = 0
+        gpa = 0.0
+        enrolled = False
+
+The Student class has four attributes:
+
+``.name`` of the type ``str`` (text string)
+
+``.year`` of the type ``int`` (integer number)
+
+``.gpa`` of the type ``float`` (decimal number)
+
+``.enrolled` of the type ``bool`` (boolean value)
