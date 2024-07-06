@@ -210,3 +210,29 @@ The ``return`` keyword is used to terminate a function and output a value:
         def function_name():
         # The code inside
         return value
+
+- The return keyword is used to terminate a function and output a value
+- When a return statement is reached, Python will stop the execution of the current function, sending a value out to where the function was called.
+
+``print()`` functions can be anywhere in the program — inside or outside of a function, whereas ``return`` is the output of a function; you don't need to print out whatever you are returning.
+
+***As a rule of thumb:***
+
+- Use ``return`` in a function when you want to send value(s) from one point in the code to another.
+- Use ``print()`` in a function when you want to display some text to the user.
+
+add(a, b) that adds two numbers a and b.
+subtract(a, b) that subtracts two numbers a and b
+multiply(a, b) that multiplies two numbers a and b.
+divide(a, b) that divides two numbers a and b.
+exp(a, b) that takes a to the exponent (or power) of b.
+
+## Scope
+
+**Scope** determines where in the program a variable is visible and can be used.
+
+Here are two types of scope:
+
+- The scope of the ``answer`` variable is only inside the ``add()`` function. It is a local variable that belongs to the local scope of the ``add()`` function.
+- Now, a variable created outside of a function is called a **global variable** and belongs to the **global scope**, meaning that they can be used by every function.
+
