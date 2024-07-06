@@ -1,5 +1,5 @@
-# 30. Mars Orbiter Mission
-# Codedex
+# 30 - Mars Orbiter Mission
+# Codédex
 
 # def happy_birthday(name):
 #  print('Happy birthday to you')

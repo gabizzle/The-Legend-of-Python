@@ -1,5 +1,6 @@
 # Janken / Rock Paper Scissors
 # Player vs Computer
+# Codédex
 
 # Initialize
 player = 0

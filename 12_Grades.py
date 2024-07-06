@@ -1,4 +1,5 @@
-# Grades
+# 12 - Grades
+# Codédex
 
 grade = int(input("Enter your grade: "))    # Ask the user to enter their grade and store it in the variable grade.
 

@@ -1,5 +1,5 @@
 # 24 – Inventory
-# Codedex
+# Codédex
 
 # Example
 # stock1_prices = [2.52, 2.44, 2.32, 2.41, 2.51, 2.50, 2.44]

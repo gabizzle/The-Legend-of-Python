@@ -282,3 +282,32 @@ So if we reformat our Student class with ``__init__()``:
         daniel = Student('Daniel Li', 10, 4.0, True)
 
 Note that ``__init__()`` also uses a separate parameter called ``self``. This represents the object we'll create out of Student(). We need to include ``self`` whenever we want to use ``__init__()``. It's always the first parameter.
+
+## Instances
+
+        class Student: 
+                def __init__(self, name, year, enrolled, gpa):
+        self.name = name
+        self.year = year
+        self.enrolled = enrolled
+        self.gpa = gpa
+        
+        def display_info(self):
+                print('The student ' + self.name + '\'s GPA is ' + str(self.gpa) + '!')
+
+        mitsuha = Student('宮水三葉', 11, False, 4.0)
+        taki = Student('立花瀧', 11, True, 3.8)
+
+        mitsuha.display_info()
+        taki.display_info()
+
+        # Output:
+        # The student 宮水三葉's GPA is 4.0!
+        # The student 立花瀧's GPA is 3.8!
+
+Note: Take a look at def display_info(self). Like what we learned about with the __init__() method, the first argument in the methods we make is always self. Every method has to have this self argument. The object attached to the method call is what self refers to.
+
+In our example, we created two objects, mitsuha and taki.
+
+When we called the ``mitsuha.display_info()`` method, the self parameter refers to the mitsuha object.
+In the case of ``taki.display_info()``, self refers to the taki object.

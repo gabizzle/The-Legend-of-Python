@@ -1,5 +1,5 @@
 # 31 - Calculator
-# Codedex
+# Codédex
 
 def add(a, b):
   return a + b

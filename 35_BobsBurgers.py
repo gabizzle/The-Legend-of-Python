@@ -1,5 +1,5 @@
 # 35 - Bob's Burgers
-# Codedex
+# Codédex
 
 # class Student:
 #   student_id = 0

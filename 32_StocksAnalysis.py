@@ -1,5 +1,5 @@
-# 32 Stonks
-# Codedex
+# 32 - Stonks
+# Codédex
 
 # price_at(x) that finds the price on a given day x.
 # max_price(a, b) that finds the maximum price from day a to day b.

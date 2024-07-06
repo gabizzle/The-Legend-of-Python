@@ -1,5 +1,5 @@
 # 25 – Reading List
-# Codedex
+# Codédex
 
 # .append()	Add an item to the end of the list
 # .clear()	Remove all items from the list

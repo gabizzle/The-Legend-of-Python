@@ -1,5 +1,5 @@
-# Functions for the 25_Dry.py script
-# Codedex
+# 28 - DRY (Don't Repeat Yourself)
+# Codédex
 
 books = ['Atomic Habits',
          'Craft Coffee',

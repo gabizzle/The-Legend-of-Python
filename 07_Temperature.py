@@ -1,4 +1,5 @@
-# Chapter 7 – Temperature
+# 7 – Temperature
+# Codédex
 
 # Examples
 score = 0           # score is 0

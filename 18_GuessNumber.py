@@ -1,4 +1,5 @@
-# Guess Number
+# 18 - Guess Number
+# Codédex
 
 # The user has 5 tries to guess the number 6
 guess = 0

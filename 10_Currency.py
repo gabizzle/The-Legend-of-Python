@@ -1,4 +1,5 @@
-# Currency
+# 10 - Currency
+# Codédex
 
 pesos = int(input("Enter amount in pesos: "))
 soles = int(input("Enter amount in soles: "))

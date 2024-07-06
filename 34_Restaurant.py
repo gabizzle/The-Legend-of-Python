@@ -1,5 +1,5 @@
 # 34 - Restaurant
-# Codedex
+# Codédex
 
 # class Student:
 #  name = ''
