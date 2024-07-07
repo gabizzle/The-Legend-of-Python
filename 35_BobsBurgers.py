@@ -64,3 +64,6 @@ dans.rating = 4.5
 dans.enrolled = False
 
 print(vars(dans))
+
+# Output
+# {'name': "Bob's Burgers", 'category': 'American Diner', 'rating': 4.7, 'enrolled': False}
