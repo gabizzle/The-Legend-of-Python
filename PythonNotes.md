@@ -311,3 +311,135 @@ In our example, we created two objects, mitsuha and taki.
 
 When we called the ``mitsuha.display_info()`` method, the self parameter refers to the mitsuha object.
 In the case of ``taki.display_info()``, self refers to the taki object.
+
+## Modules
+
+A **module** is any file with a .py extension. But more ideally, a module contains statements, functions, and class definitions that revolve around a similar purpose.
+
+- By default, Python comes with over 200 modules that we can use.
+
+Here are some examples:
+
+- ``random`` module to generate a random number.
+- ``math`` module to calculate the square root.
+- ``datetime`` module to work with dates and times.
+
+### Random Choices
+
+        import random
+
+        dice = [1, 2, 3, 4, 5, 6]
+
+        print(random.choices(dice))
+- The``import`` keyword is used to access the random module.
+- The ``.choices()`` method will randomly select a single item by default.
+
+We can also set how many items are randomly chosen with the k parameter:
+
+        import random
+
+        dice = [1, 2, 3, 4, 5, 6]
+
+        print(random.choices(dice, k=3))
+
+- This will return a new list of three items randomly selected from dice. Every time you run it, the output should be different.
+- **Note**: The ``k`` parameter only sets the length of the returned list from ``.choices()``. This means that a list item may be included in the returned list more than once.
+
+### Multiple Modules
+
+There are two ways to import two or more modules at the top of our program:
+
+With multiple import statements:
+        
+        import random
+        import math
+
+        # Rest of the code...
+
+With one import statement and modules separated by commas:
+        
+        import random, math
+
+        # Rest of the code...
+
+These two code blocks do the exact same thing.
+
+## ``from``
+
+At the top of our file, this keyword goes before the ``import`` keyword:
+
+        from module_name import objects
+
+We can use the from keyword to import one or more objects from a module, such as built-in classes, methods, or variables.
+
+The next example uses the from keyword to import random module's ``.sample()`` method that returns a list of values randomly picked from another list:
+from random import sample
+
+        famous_houses = [
+        '🐺 Stark',
+        '🐉 Targaryen',
+        '🦌 Baratheon',
+        '🦑 Greyjoy',
+        '🦁 Lannister'
+        ]
+
+        example = sample(famous_houses, 2)
+
+        print(f'Example: {example}')
+
+Since the ``.sample()`` method was directly imported, we can just write sample() instead of the usual random.sample().
+
+By the way, more than one method, variable, or class can be imported from a module on a single line.
+
+If we want to import both the .choice() and .sample() methods:
+
+        from random import choice, sample
+
+Note: The ``random.choice()`` method randomly selects and returns a single element from a list.
+
+## ``as``
+
+We can nickname a module by using the as keyword. This is called aliasing.
+
+        import random as rd
+
+From this point of the program, the random module will be known as rd.
+
+The from and as keywords can also be combined:
+
+from random import sample as samp
+
+        example = samp(['Stark', 'Targaryen', 'Baratheon', 'Greyjoy', 'Lannister'], 2)
+
+        print('Example: ' + example[0] + ' ' + example[1])
+
+Instead of typing sample(), we can use the alias we assigned it to, samp().
+
+## ``datetime`` module
+
+The ``datetime`` module specializes in dates and times. Just like ``random``, it comes with Python by default and can simply be imported.
+
+The ``datetime`` module has a date object that accepts the following properties:
+
+``.year``: An integer between 1 and 9999.
+``.month``: An integer between 1 and 12.
+``.day``: An integer between 1 and the number of days in a given month.
+
+The syntax for a ``date`` is ``datetime.date(year, month, day)``, like so:
+
+        import datetime
+
+        release_date = datetime.date(1991, 2, 20)
+        print(release_date)     # Output: 1991-02-20
+
+The output shows the date object with a dash between each part. Also, any single number gets a leading zero 0.
+
+The ``.year``, ``.month``, and ``.day`` properties can be accessed like with any other class object:
+
+        print(f'Python was released in {release_date.year}.')
+        # Output: Python was released in 1991.
+
+Retrieving the current date is possible with the ``date.today()`` method:
+
+        datetime.date.today()
+
