@@ -1,6 +1,10 @@
 # 00 – Letter to Self
 # Codédex
 
+# OMG we're so proud of you! (╥﹏╥)
+
+import this
+
 print('Congrats! You\'ve made it to the end of chapter one! 🫶')
 
 print('March 3, 2024')
