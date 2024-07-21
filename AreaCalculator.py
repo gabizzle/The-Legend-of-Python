@@ -4,9 +4,9 @@
 
 import math
 
-print('-------------------------------')
-print('        Area Calculator  📐    ')
-print('-------------------------------')
+print('----------------------------------------------')
+print('               Area Calculator  📐            ')
+print('----------------------------------------------')
 print('     1) Triangle')
 print('     2) Rectangle')
 print('     3) Square')
